@@ -7,7 +7,7 @@ class PythagoreUtility
     public static function display()
     {
        
-        $html = "<table border='1' cellspacing='0' cellpadding='5'>";
+        $html = "<table border='1'>";
         $html .= "<tr><th></th>";
 
       
