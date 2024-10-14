@@ -27,7 +27,6 @@ class PythagoreController extends AbstractController
     public function DisplayPythagoreAction(): Response
     {
         $pythagoreHTML = PythagoreUtility::display(); 
-        
         return $this->render('pythagore/displayPythagore.html.twig', [
             'pythagoreHTML' => $pythagoreHTML
         ]);
